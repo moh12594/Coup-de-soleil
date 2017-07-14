@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cabin-Bold-TTF.ttf">
+            <string>Cabin-Bold</string>
+        </array>
+        <array key="Cabin-Medium-TTF.ttf">
+            <string>Cabin-Medium</string>
+        </array>
+        <array key="Cabin-Regular-TTF.ttf">
+            <string>Cabin-Regular</string>
+        </array>
+        <array key="Cabin-SemiBold-TTF.ttf">
+            <string>Cabin-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Coup_de_soleil" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="NxQ-dF-mJb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIw-oO-VkE">
+                                <rect key="frame" x="112" y="397.5" width="150" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="mJ6-YM-75v"/>
+                                    <constraint firstAttribute="width" constant="150" id="qxU-1o-b0W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="22"/>
+                                <state key="normal" title="Me rappeler">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notifyMeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wbx-6M-KSH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GJO-EB-0RW">
+                                <rect key="frame" x="18.5" y="276" width="337.5" height="121.5"/>
+                                <fontDescription key="fontDescription" name="Cabin-Bold" family="Cabin" pointSize="100"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minutes avant un coup de soleil :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI5-8h-4Vg">
+                                <rect key="frame" x="85.5" y="237.5" width="204.5" height="18.5"/>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.65000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chargement en cours ..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pJ-vc-Ucq">
+                                <rect key="frame" x="102.5" y="616" width="169" height="21"/>
+                                <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prototype I - Peau très blanche" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8iB-gF-65z">
+                                <rect key="frame" x="75" y="59" width="225.5" height="21"/>
+                                <fontDescription key="fontDescription" name="Cabin-SemiBold" family="Cabin" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvg-o6-RK1">
+                                <rect key="frame" x="155" y="85" width="65" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="55" id="1Dp-YH-U2Y"/>
+                                    <constraint firstAttribute="width" constant="65" id="vYc-BE-02D"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cabin-Medium" family="Cabin" pointSize="17"/>
+                                <state key="normal" title="Changer">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeSkinClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KYU-aB-j3g"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="zCW-L1-y2G">
+                                <rect key="frame" x="177" y="574" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Votre type de peau" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lJ-Sg-vBn">
+                                <rect key="frame" x="124" y="29.5" width="128.5" height="19.5"/>
+                                <fontDescription key="fontDescription" name="Cabin-Regular" family="Cabin" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fIw-oO-VkE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Ve-uh-YeK"/>
+                            <constraint firstItem="NxQ-dF-mJb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6yU-bU-Wro"/>
+                            <constraint firstAttribute="trailing" secondItem="NxQ-dF-mJb" secondAttribute="trailing" id="9TF-sJ-E66"/>
+                            <constraint firstItem="vI5-8h-4Vg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-87" id="JgA-58-s9T"/>
+                            <constraint firstItem="8iB-gF-65z" firstAttribute="top" secondItem="0lJ-Sg-vBn" secondAttribute="bottom" constant="10" id="KDg-eL-K3F"/>
+                            <constraint firstItem="0pJ-vc-Ucq" firstAttribute="top" secondItem="zCW-L1-y2G" secondAttribute="bottom" constant="22" id="Mbq-HJ-4kd"/>
+                            <constraint firstItem="vI5-8h-4Vg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TU3-bT-9tM"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="NxQ-dF-mJb" secondAttribute="bottom" id="UoR-hy-Gzf"/>
+                            <constraint firstItem="zCW-L1-y2G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Uuk-A1-N5F"/>
+                            <constraint firstItem="GJO-EB-0RW" firstAttribute="top" secondItem="vI5-8h-4Vg" secondAttribute="bottom" constant="20" id="XPh-t8-mKH"/>
+                            <constraint firstItem="GJO-EB-0RW" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.9" id="ZiL-mR-IVa"/>
+                            <constraint firstItem="GJO-EB-0RW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cdM-YM-T5P"/>
+                            <constraint firstItem="Fvg-o6-RK1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eNp-Bq-L3F"/>
+                            <constraint firstItem="NxQ-dF-mJb" firstAttribute="top" secondItem="0lJ-Sg-vBn" secondAttribute="bottom" constant="-49" id="eYv-Dq-jRu"/>
+                            <constraint firstItem="0lJ-Sg-vBn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ekh-yh-vDR"/>
+                            <constraint firstItem="NxQ-dF-mJb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="hP4-cc-JLC"/>
+                            <constraint firstItem="0pJ-vc-Ucq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mYC-pI-Ltc"/>
+                            <constraint firstItem="Fvg-o6-RK1" firstAttribute="top" secondItem="8iB-gF-65z" secondAttribute="bottom" constant="5" id="oaq-N4-jY9"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0pJ-vc-Ucq" secondAttribute="bottom" constant="30" id="pgF-oZ-ihD"/>
+                            <constraint firstItem="8iB-gF-65z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qPq-v4-BCw"/>
+                            <constraint firstItem="fIw-oO-VkE" firstAttribute="top" secondItem="GJO-EB-0RW" secondAttribute="bottom" id="wSX-fu-txA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="zCW-L1-y2G" id="GJF-ij-RJP"/>
+                        <outlet property="skinTypeLabel" destination="8iB-gF-65z" id="ryK-M3-LOT"/>
+                        <outlet property="statusLabel" destination="0pJ-vc-Ucq" id="8qf-YF-tkV"/>
+                        <outlet property="timeLabel" destination="GJO-EB-0RW" id="SAM-zZ-PGL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14" y="79"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="375" height="667"/>
+    </resources>
+</document>

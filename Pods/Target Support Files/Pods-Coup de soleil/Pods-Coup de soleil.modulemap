@@ -1,0 +1,6 @@
+framework module Pods_Coup_de_soleil {
+  umbrella header "Pods-Coup de soleil-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0BE643A6B66A6D9BA2EA3D /* Pods_Coup_de_soleil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C4512FEFFD2CB371528021 /* Pods_Coup_de_soleil.framework */; };
+		A04FD4B41F16B7A500F7AB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD4B31F16B7A500F7AB06 /* AppDelegate.swift */; };
+		A04FD4B61F16B7A500F7AB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD4B51F16B7A500F7AB06 /* ViewController.swift */; };
+		A04FD4B91F16B7A500F7AB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4B71F16B7A500F7AB06 /* Main.storyboard */; };
+		A04FD4BC1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A04FD4BA1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodeld */; };
+		A04FD4BE1F16B7A500F7AB06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4BD1F16B7A500F7AB06 /* Assets.xcassets */; };
+		A04FD4C11F16B7A500F7AB06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4BF1F16B7A500F7AB06 /* LaunchScreen.storyboard */; };
+		A04FD4CA1F16BEF100F7AB06 /* Cabin-SemiBoldItalic-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4C91F16BEF100F7AB06 /* Cabin-SemiBoldItalic-TTF.ttf */; };
+		A04FD4D21F16BF0E00F7AB06 /* Cabin-Bold-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4CB1F16BF0E00F7AB06 /* Cabin-Bold-TTF.ttf */; };
+		A04FD4D31F16BF0E00F7AB06 /* Cabin-BoldItalic-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4CC1F16BF0E00F7AB06 /* Cabin-BoldItalic-TTF.ttf */; };
+		A04FD4D41F16BF0E00F7AB06 /* Cabin-Italic-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4CD1F16BF0E00F7AB06 /* Cabin-Italic-TTF.ttf */; };
+		A04FD4D51F16BF0E00F7AB06 /* Cabin-Medium-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4CE1F16BF0E00F7AB06 /* Cabin-Medium-TTF.ttf */; };
+		A04FD4D61F16BF0E00F7AB06 /* Cabin-MediumItalic-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4CF1F16BF0E00F7AB06 /* Cabin-MediumItalic-TTF.ttf */; };
+		A04FD4D71F16BF0E00F7AB06 /* Cabin-Regular-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4D01F16BF0E00F7AB06 /* Cabin-Regular-TTF.ttf */; };
+		A04FD4D81F16BF0E00F7AB06 /* Cabin-SemiBold-TTF.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04FD4D11F16BF0E00F7AB06 /* Cabin-SemiBold-TTF.ttf */; };
+		A04FD4DA1F16C72400F7AB06 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04FD4D91F16C72400F7AB06 /* Utilities.swift */; };
+		A0C8D88A1F1902E700F03E4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C8D8891F1902E600F03E4E /* Constants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37C4512FEFFD2CB371528021 /* Pods_Coup_de_soleil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coup_de_soleil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E30345DEE50340287C125FA /* Pods-Coup de soleil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coup de soleil.release.xcconfig"; path = "Pods/Target Support Files/Pods-Coup de soleil/Pods-Coup de soleil.release.xcconfig"; sourceTree = "<group>"; };
+		A04FD4B01F16B7A500F7AB06 /* Coup de soleil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coup de soleil.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A04FD4B31F16B7A500F7AB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A04FD4B51F16B7A500F7AB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A04FD4B81F16B7A500F7AB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A04FD4BB1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Coup_de_soleil.xcdatamodel; sourceTree = "<group>"; };
+		A04FD4BD1F16B7A500F7AB06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A04FD4C01F16B7A500F7AB06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A04FD4C21F16B7A500F7AB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04FD4C91F16BEF100F7AB06 /* Cabin-SemiBoldItalic-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-SemiBoldItalic-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4CB1F16BF0E00F7AB06 /* Cabin-Bold-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4CC1F16BF0E00F7AB06 /* Cabin-BoldItalic-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-BoldItalic-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4CD1F16BF0E00F7AB06 /* Cabin-Italic-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Italic-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4CE1F16BF0E00F7AB06 /* Cabin-Medium-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Medium-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4CF1F16BF0E00F7AB06 /* Cabin-MediumItalic-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-MediumItalic-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4D01F16BF0E00F7AB06 /* Cabin-Regular-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Regular-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4D11F16BF0E00F7AB06 /* Cabin-SemiBold-TTF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-SemiBold-TTF.ttf"; sourceTree = "<group>"; };
+		A04FD4D91F16C72400F7AB06 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A0C8D8891F1902E600F03E4E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F168A8D6ABEC75EAE761CF24 /* Pods-Coup de soleil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coup de soleil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Coup de soleil/Pods-Coup de soleil.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A04FD4AD1F16B7A500F7AB06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0BE643A6B66A6D9BA2EA3D /* Pods_Coup_de_soleil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82AE3A084FBC0F8B437C12AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F168A8D6ABEC75EAE761CF24 /* Pods-Coup de soleil.debug.xcconfig */,
+				5E30345DEE50340287C125FA /* Pods-Coup de soleil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A04FD4A71F16B7A500F7AB06 = {
+			isa = PBXGroup;
+			children = (
+				A04FD4B21F16B7A500F7AB06 /* Coup de soleil */,
+				A04FD4B11F16B7A500F7AB06 /* Products */,
+				82AE3A084FBC0F8B437C12AF /* Pods */,
+				EEF614105435CA69BA28E6B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A04FD4B11F16B7A500F7AB06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD4B01F16B7A500F7AB06 /* Coup de soleil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A04FD4B21F16B7A500F7AB06 /* Coup de soleil */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD4C81F16BEA200F7AB06 /* Ressources */,
+				A04FD4B31F16B7A500F7AB06 /* AppDelegate.swift */,
+				A04FD4B51F16B7A500F7AB06 /* ViewController.swift */,
+				A04FD4B71F16B7A500F7AB06 /* Main.storyboard */,
+				A04FD4BD1F16B7A500F7AB06 /* Assets.xcassets */,
+				A04FD4BF1F16B7A500F7AB06 /* LaunchScreen.storyboard */,
+				A04FD4C21F16B7A500F7AB06 /* Info.plist */,
+				A04FD4BA1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodeld */,
+				A04FD4D91F16C72400F7AB06 /* Utilities.swift */,
+				A0C8D8891F1902E600F03E4E /* Constants.swift */,
+			);
+			path = "Coup de soleil";
+			sourceTree = "<group>";
+		};
+		A04FD4C81F16BEA200F7AB06 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				A04FD4CB1F16BF0E00F7AB06 /* Cabin-Bold-TTF.ttf */,
+				A04FD4CC1F16BF0E00F7AB06 /* Cabin-BoldItalic-TTF.ttf */,
+				A04FD4CD1F16BF0E00F7AB06 /* Cabin-Italic-TTF.ttf */,
+				A04FD4CE1F16BF0E00F7AB06 /* Cabin-Medium-TTF.ttf */,
+				A04FD4CF1F16BF0E00F7AB06 /* Cabin-MediumItalic-TTF.ttf */,
+				A04FD4D01F16BF0E00F7AB06 /* Cabin-Regular-TTF.ttf */,
+				A04FD4D11F16BF0E00F7AB06 /* Cabin-SemiBold-TTF.ttf */,
+				A04FD4C91F16BEF100F7AB06 /* Cabin-SemiBoldItalic-TTF.ttf */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		EEF614105435CA69BA28E6B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37C4512FEFFD2CB371528021 /* Pods_Coup_de_soleil.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A04FD4AF1F16B7A500F7AB06 /* Coup de soleil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A04FD4C51F16B7A500F7AB06 /* Build configuration list for PBXNativeTarget "Coup de soleil" */;
+			buildPhases = (
+				E5FF3B4E5D1E95776771856F /* [CP] Check Pods Manifest.lock */,
+				A04FD4AC1F16B7A500F7AB06 /* Sources */,
+				A04FD4AD1F16B7A500F7AB06 /* Frameworks */,
+				A04FD4AE1F16B7A500F7AB06 /* Resources */,
+				B219612DC0B7A7097142C353 /* [CP] Embed Pods Frameworks */,
+				2F88AB37F16EAFEB93C2CA60 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coup de soleil";
+			productName = "Coup de soleil";
+			productReference = A04FD4B01F16B7A500F7AB06 /* Coup de soleil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A04FD4A81F16B7A500F7AB06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mohsadat;
+				TargetAttributes = {
+					A04FD4AF1F16B7A500F7AB06 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = JBD2W62Q7B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A04FD4AB1F16B7A500F7AB06 /* Build configuration list for PBXProject "Coup de soleil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A04FD4A71F16B7A500F7AB06;
+			productRefGroup = A04FD4B11F16B7A500F7AB06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A04FD4AF1F16B7A500F7AB06 /* Coup de soleil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A04FD4AE1F16B7A500F7AB06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A04FD4D71F16BF0E00F7AB06 /* Cabin-Regular-TTF.ttf in Resources */,
+				A04FD4C11F16B7A500F7AB06 /* LaunchScreen.storyboard in Resources */,
+				A04FD4BE1F16B7A500F7AB06 /* Assets.xcassets in Resources */,
+				A04FD4D21F16BF0E00F7AB06 /* Cabin-Bold-TTF.ttf in Resources */,
+				A04FD4CA1F16BEF100F7AB06 /* Cabin-SemiBoldItalic-TTF.ttf in Resources */,
+				A04FD4D31F16BF0E00F7AB06 /* Cabin-BoldItalic-TTF.ttf in Resources */,
+				A04FD4B91F16B7A500F7AB06 /* Main.storyboard in Resources */,
+				A04FD4D81F16BF0E00F7AB06 /* Cabin-SemiBold-TTF.ttf in Resources */,
+				A04FD4D61F16BF0E00F7AB06 /* Cabin-MediumItalic-TTF.ttf in Resources */,
+				A04FD4D51F16BF0E00F7AB06 /* Cabin-Medium-TTF.ttf in Resources */,
+				A04FD4D41F16BF0E00F7AB06 /* Cabin-Italic-TTF.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F88AB37F16EAFEB93C2CA60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coup de soleil/Pods-Coup de soleil-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B219612DC0B7A7097142C353 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Coup de soleil/Pods-Coup de soleil-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5FF3B4E5D1E95776771856F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A04FD4AC1F16B7A500F7AB06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8D88A1F1902E700F03E4E /* Constants.swift in Sources */,
+				A04FD4B61F16B7A500F7AB06 /* ViewController.swift in Sources */,
+				A04FD4B41F16B7A500F7AB06 /* AppDelegate.swift in Sources */,
+				A04FD4DA1F16C72400F7AB06 /* Utilities.swift in Sources */,
+				A04FD4BC1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A04FD4B71F16B7A500F7AB06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04FD4B81F16B7A500F7AB06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A04FD4BF1F16B7A500F7AB06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A04FD4C01F16B7A500F7AB06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A04FD4C31F16B7A500F7AB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A04FD4C41F16B7A500F7AB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A04FD4C61F16B7A500F7AB06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F168A8D6ABEC75EAE761CF24 /* Pods-Coup de soleil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JBD2W62Q7B;
+				INFOPLIST_FILE = "Coup de soleil/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohsadat.Coup-de-soleil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A04FD4C71F16B7A500F7AB06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E30345DEE50340287C125FA /* Pods-Coup de soleil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JBD2W62Q7B;
+				INFOPLIST_FILE = "Coup de soleil/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mohsadat.Coup-de-soleil";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A04FD4AB1F16B7A500F7AB06 /* Build configuration list for PBXProject "Coup de soleil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04FD4C31F16B7A500F7AB06 /* Debug */,
+				A04FD4C41F16B7A500F7AB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A04FD4C51F16B7A500F7AB06 /* Build configuration list for PBXNativeTarget "Coup de soleil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A04FD4C61F16B7A500F7AB06 /* Debug */,
+				A04FD4C71F16B7A500F7AB06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A04FD4BA1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A04FD4BB1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodel */,
+			);
+			currentVersion = A04FD4BB1F16B7A500F7AB06 /* Coup_de_soleil.xcdatamodel */;
+			path = Coup_de_soleil.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A04FD4A81F16B7A500F7AB06 /* Project object */;
+}
